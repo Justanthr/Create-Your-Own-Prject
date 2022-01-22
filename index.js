@@ -31,8 +31,17 @@ Do you follow it, or continue on your path?`)
                     let eighthAnswer = window.prompt(`You change your direction to help your cat. When you reach the cat the dragon speaks. It says it does not wish to harm you. Do you believe it, or do you try to fight?`)
                     if(eighthAnswer === 'believe it'){
                         let ninthAnswer = window.prompt(`You and the dragon have a lovely conversation, and all become life long friends. The dragon even gives you a lift back to your cats.`)
+                    } else if(eighthAnswer === 'fight'){
+                        let ninthAnswer = window.prompt(`You grab a sharp rock from the ground and throw it at the dragon. The rock hits the dragon in the left wing, it falls from the sky. The dragon then gets up and runs from you. Now scared of you. You've won..... You hope.`)
                     }
-                } 
+                } else if(seventhAnswer === 'continue'){
+                    let eighthAnswer = window.prompt(`You catch up to the sorcerer, when you turn around, and see that the cat and the dragon have been heading straight for you! the dragon says it does not with to harm you. Do you believe them, or fight?`)
+                        if(eighthAnswer === 'believe it'){
+                            let ninthAnswer = window.prompt(`You and the dragon have a lovely conversation, and all become life long friends. The dragon even gives you a lift back to your cats.`)
+                        }else if(eighthAnswer === 'fight'){
+                            let ninthAnswer = window.prompt(`You grab a sharp rock from the ground and throw it at the dragon. The rock hits the dragon in the left wing, it falls from the sky. The dragon then gets up and runs from you. Now scared of you. You've won..... You hope.`)
+                        }
+                }
 
             }else if(sixthAnswer === 'go home'){
                 let seventhAnswer = window.prompt(`you start to head home, when you see one of your cats being chased by a dragon! Do you go get the rest of the cats, or do you try to save the cat by yourself?`)
@@ -67,6 +76,38 @@ Do you follow it, or continue on your path?`)
                             }
                         }
                     }
+                }
+            } else if(fifthAnswer === 'stay put'){
+                let sixthAnswer = window.prompt(`suddenly, the ground starts shaking, a mighty dragon appears. Do you run, or fight?`)
+                if(sixthAnswer === 'run'){
+                    let seventhAnswer = window.prompt(`You catch up with your cats, when you relize the've come across a little house. Do you go in, or continue to run?`)
+                    if(seventhAnswer === 'go in'){
+                        let eighthAnswer = window.prompt(`When you enter, you see the sorcerer. You both stand there stunned. Are they.... You?? Do you ask what is going on, or do you leave?`)
+                        if(eighthAnswer === 'ask'){
+                            let ninthAnswer = window.prompt(`They tell you that they are your long lost twin. Do you believe them, or do you try to fight them?`)
+                            if(ninthAnswer === "believe them"){
+                                let tenthAnswer = window.prompt(`You sit down, and chat with your life long twin. After hours of catching up, the dragon has left, and you return to your colony.`)
+                            } else if(ninthAnswer === 'fight'){
+                                let tenthAnswer = window.prompt(`You grab a staff that is sitting next to the door, and charge at the sorcerer. The sorcerer does not hesitate to cast a spell, you then become a mere cat. You return to your cat colony, where they still accept you.`)
+                            }
+                        } else if(eighthAnswer === 'leave'){
+                            let ninthAnswer = window.prompt(`You continue to run, but it is no use. The dragon picks you up. It tells you that you and the sorcerer are twins, and that it is sworn to protect you. Do you believe it, or try and fight?`)
+                            if(ninthAnswer === 'believe it'){
+                                let tenthAnswer = window.prompt('You and the dragon have a lovely talk. It takes you back to your colony, and promises to visit.')
+                            } else if(ninthAnswer === 'fight'){
+                                let tenthAnswer = window.prompt(`You struggle to get out of the dragons claws, when you finally do free yourself, you realize you're still in the air. You fall to your death.`)
+                            }
+                        }
+                    } else if(seventhAnswer === 'continue'){
+                        let eighthAnswer = window.prompt(`You continue to run, but it is no use. The dragon picks you up. It tells you that you and the sorcerer are twins, and that it is sworn to protect you. Do you believe it, or try and fight?`)
+                        if(ninthAnswer === 'believe it'){
+                            let tenthAnswer = window.prompt('You and the dragon have a lovely talk. It takes you back to your colony, and promises to visit.')
+                        }  else if(ninthAnswer === 'fight'){
+                            let tenthAnswer = window.prompt(`You struggle to get out of the dragons claws, when you finally do free yourself, you realize you're still in the air. You fall to your death.`)
+                        }
+                    }
+                } else if(sixthAnswer === 'fight'){
+                    let seventhAnswer = window.prompt(`You grab a sharp rock from the ground and throw it at the dragon. The rock hits the dragon in the left wing, it falls from the sky. The dragon then gets up and runs from you. Now scared of you. You've won..... You hope.`)
                 }
             }
         } 

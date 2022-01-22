@@ -100,10 +100,10 @@ Do you follow it, or continue on your path?`)
                         }
                     } else if(seventhAnswer === 'continue'){
                         let eighthAnswer = window.prompt(`You continue to run, but it is no use. The dragon picks you up. It tells you that you and the sorcerer are twins, and that it is sworn to protect you. Do you believe it, or try and fight?`)
-                        if(ninthAnswer === 'believe it'){
-                            let tenthAnswer = window.prompt('You and the dragon have a lovely talk. It takes you back to your colony, and promises to visit.')
-                        }  else if(ninthAnswer === 'fight'){
-                            let tenthAnswer = window.prompt(`You struggle to get out of the dragons claws, when you finally do free yourself, you realize you're still in the air. You fall to your death.`)
+                        if(eighthAnswer === 'believe it'){
+                            let ninthAnswer = window.prompt('You and the dragon have a lovely talk. It takes you back to your colony, and promises to visit.')
+                        }  else if(eighthAnswer === 'fight'){
+                            let ninthAnswer = window.prompt(`You struggle to get out of the dragons claws, when you finally do free yourself, you realize you're still in the air. You fall to your death.`)
                         }
                     }
                 } else if(sixthAnswer === 'fight'){

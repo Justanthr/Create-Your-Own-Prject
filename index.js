@@ -32,13 +32,21 @@ Do you follow it, or continue on your path?`)
                     if(eighthAnswer === 'believe it'){
                         let ninthAnswer = window.prompt(`You and the dragon have a lovely conversation, and all become life long friends. The dragon even gives you a lift back to your cats.`)
                     }
-                }
+                } 
+
             }else if(sixthAnswer === 'go home'){
                 let seventhAnswer = window.prompt(`you start to head home, when you see one of your cats being chased by a dragon! Do you go get the rest of the cats, or do you try to save the cat by yourself?`)
                 if(seventhAnswer === 'save the cat'){
                     let eighthAnswer = window.prompt(`You catch up to the cat and scoop them up. The dragon begins to speak. It says it doesn't want to harm you. Do you believe it or do you fight?`)
                     if(eighthAnswer === 'believe it'){
                         let ninthAnswer = window.prompt(`You and the dragon have a lovely conversation, and all become life long friends. The dragon even gives you a lift back to your cats.`)
+                    }
+                }else if(seventhAnswer === 'get the colony'){
+                    let eighthAnswer = window.prompt(`As you start to head to the colony, you look behind you to see the cat, and the dragon now following you. The dragon begins to speak. It tells you that it does not want to harm you. Do you believe it, or fight?`)
+                    if(eighthAnswer === 'believe it'){
+                        let ninthAnswer = window.prompt(`You and the dragon have a lovely conversation, and all become life long friends. The dragon even gives you a lift back to your cats.`)
+                    } else if(eighthAnswer === 'fight it'){
+                        let ninthAnswer = window.prompt(`You grab a sharp rock from the ground and throw it at the dragon. The rock hits the dragon in the left wing, it falls from the sky. The dragon then gets up and runs from you. Now scared of you. You've won..... You hope.`)
                     }
                 }
             }

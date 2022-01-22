@@ -144,9 +144,9 @@ if(secondAnswer === 'treasure'){
             } else if(fifthAnswer === 'spread the word'){
                 let sixthAnswer = window.prompt(`After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.`)
             }
-        } else if(fourthAnswer === 'go home'){
-            let fifthAnswer = (`On your way, you find a stone shaped like a cat head. You keep it, and treasure it, reminiscing over your adventure.`)
-        }
+        }else if(fourthAnswer === 'go home'){
+            let fifthAnswer = window.prompt(`On your way, you find a stone shaped like a cat head. You keep it, and treasure it, reminiscing over your adventure.`)
+        } 
     }
 
 } else if(secondAnswer === 'away'){

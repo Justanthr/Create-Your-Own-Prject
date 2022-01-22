@@ -136,7 +136,17 @@ if(secondAnswer === 'treasure'){
     if(thirdAnswer === 'stay'){
         let fourthAnswer = window.prompt(`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
     } else if(thirdAnswer === 'run'){
-        let fourthAnswer = window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+        let fourthAnswer = window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you return home. On your way, you see a cat. Do you choose to follow it, or go home?`)
+        if(fourthAnswer === 'follow'){
+            let fifthAnswer = window.prompt(`You follow the cat to a colony of cats, nestled in a fort of warm blankets and subsisting off of inexplicably warm soup. They are content with you staying, but you wonder if you should alert the world to this magical safe haven.`)
+            if(fifthAnswer === 'stay'){
+                let sixthAnswer = window.prompt(`You live happily amongst the cats for the rest of your days. When one day, you see the sorcerer again.`)
+            } else if(fifthAnswer === 'spread the word'){
+                let sixthAnswer = window.prompt(`After leaving the cat colony, you are never able to find it again; without proof, no one believes your story, which passes into legend nonetheless.`)
+            }
+        } else if(fourthAnswer === 'go home'){
+            let fifthAnswer = (`On your way, you find a stone shaped like a cat head. You keep it, and treasure it, reminiscing over your adventure.`)
+        }
     }
 
 } else if(secondAnswer === 'away'){
